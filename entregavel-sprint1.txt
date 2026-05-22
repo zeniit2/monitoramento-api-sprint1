@@ -1,0 +1,13 @@
+SPRINT 1 - BACKEND - API DE MONITORAMENTO DE SENSORES
+FIAP - Mecatronica
+
+Integrantes:
+- 563318 Christopher Takeuti
+- 565268 Erick Lima
+- 564390 Luiz Henrique de Almeida
+- 564021 Mateus Bustamante
+- 565575 Pedro Lopes
+- 562129 Tiago Ferreira
+
+Link do repositorio backend:
+https://github.com/zeniit2/monitoramento-api-sprint1
