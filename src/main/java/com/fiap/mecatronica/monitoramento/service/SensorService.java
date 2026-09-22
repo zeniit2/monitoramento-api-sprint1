@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.fiap.mecatronica.monitoramento.exception.SensorNaoEncontradoException;
 import com.fiap.mecatronica.monitoramento.model.Sensor;
 import com.fiap.mecatronica.monitoramento.repository.SensorRepository;
 
@@ -20,7 +21,7 @@ public class SensorService {
 
     public Sensor buscarPorId(Long id) {
         return sensorRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Sensor nao encontrado com id: " + id));
+                .orElseThrow(() -> new SensorNaoEncontradoException(id));
     }
 
     public List<Sensor> listarPorTipo(String tipo) {

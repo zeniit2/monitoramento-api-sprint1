@@ -1,0 +1,16 @@
+SPRINT 3 - INTEGRACAO MOBILE E BACKEND
+Advanced Programming & Mobile Dev - FIAP Mecatronica
+Projeto VerdeSmart - Monitoramento de vegetacao em rodovias
+
+Integrantes:
+- 563318 Christopher Takeuti
+- 565268 Erick Lima
+- 564390 Luiz Henrique de Almeida
+- 564021 Mateus Bustamante
+- 565575 Pedro Lopes
+
+Link do repositorio backend (Spring Boot):
+https://github.com/zeniit2/monitoramento-api-sprint1
+
+Link do repositorio frontend (React Native / Expo):
+https://github.com/zeniit2/app-sprint1-hete
